@@ -1,0 +1,142 @@
+<!-- Betaldo03 -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/logo/game.png" type="image/x-icon" />
+    <link rel="stylesheet" href="">
+    
+    <!-- Animate Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Jonsuh Hamburger -->
+    <link rel="stylesheet" href="dist/css/hamburgers.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <title>Diray  &dash; PlayStation</title>
+  <body>
+
+    
+    <section class = "contact-section">
+      <div class = "contact-bg">
+        <div class="logo-nav">
+            
+          <h2>Contact us</h2>
+        </div>
+        <div class = "line">
+        </div>
+        <p class = "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda iste facilis quos impedit fuga nobis modi debitis laboriosam velit reiciendis quisquam alias corporis, maxime enim, optio ab dolorum sequi qui.</p>
+        <nav
+        class="breadcrumb"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <ol class="breadcrumb text-center justify-content-center">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li
+            class="breadcrumb-item active text-white-50"
+            aria-current="page"
+          >
+            Kontak Kami
+          </li>
+        </ol>
+      </nav>
+      </div>
+
+
+      <div class = "contact-body">
+        <div class = "contact-info">
+          <div>
+            <span><i class = "fas fa-mobile-alt"></i></span>
+            <span>Nomor HP</span>
+            <span class = "text">+6282247899867</span>
+          </div>
+          <div>
+            <span><i class = "fas fa-envelope-open"></i></span>
+            <span>E-mail</span>
+            <span class = "text">betaldo@gmail.com</span>
+          </div>
+          <div>
+            <span><i class = "fas fa-map-marker-alt"></i></span>
+            <span>Alamat</span>
+            <span class = "text">Naikoten I, Kota Raja, Kota Kupang, <br>Nusa Tenggara Timur </span>
+          </div>
+          <div>
+            <span><i class = "fas fa-clock"></i></span>
+            <span>Jam Buka</span>
+            <span class = "text">Senin - Minggu <br> (24 Jam)</span>
+          </div>
+        </div>
+
+        <div class = "contact-form">
+          <form action="#" onsubmit="sendMassageWA()">
+            <div>
+              <input type = "text" class = "form-control" placeholder="Nama Anda..." id="nama">
+              <input type = "number" class = "form-control" placeholder="Umur Anda..." id="umur">
+              
+            </div>
+            <textarea rows = "8" placeholder="Masukkan Pesan Anda..." class = "form-control" id="pesan"></textarea>
+            <input type = "submit" class = "send-btn" value = "Kirim Pesan">
+          </form>
+
+          <div>
+            <img src = "assets/images/LOGO-DIRAY-HITAM.png" alt = "">
+          </div>
+        </div>
+      </div>
+
+
+      <div class = "map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.036889999939!2d123.59756197362849!3d-10.177656909918575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c569bbf1ea7ee2d%3A0xfe8ea83c225dbacf!2sDiRay%20Rental%20PS!5e0!3m2!1sen!2sid!4v1735241960157!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <p>&copy; Copyright by <span>betaldo</span> 2024, All Right Reserved.</p>
+        </div>
+        <div class = "social-links">
+          <a href = "https://www.facebook.com/almendopratama" class = "fab fa-facebook-f"></a>
+          <a href = "https://www.instagram.com/allmendopratama" class = "fab fa-instagram"></a>
+          <a href = "https://www.linkedin.com/in/allmendo-pratama-aldo3009/?profileId=ACoAADRV7hQBcCy1OtXKqwsStDwX7vnuj_mGz2Y" class = "fab fa-linkedin"></a>
+        </div>
+      </div>
+    </section>  
+    <!-- Tutup Footer  -->
+    
+    <!-- Javascript WA -->
+    <script>
+      function sendMassageWA(){
+        const urlToWhatsapp = `https://wa.me/6281237600057?text=Halo,saya ${nama.value}, ${pesan.value}`;
+        window.open(urlToWhatsapp, "_blank");
+      }
+    </script>
+    <!-- Tutup Javascript WA -->
+     
+    <!-- Hehe  -->
+
+  </body>
+</html>
